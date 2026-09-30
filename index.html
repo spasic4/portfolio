@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasilije Spasić | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fontovi -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigacija -->
+    <nav>
+        <div class="logo">VS.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Sekcija (Pocetna) -->
+    <section id="home" class="hero hidden">
+        <p class="greeting">Zdravo, ja sam</p>
+        <h1>Vasilije Spasić.</h1>
+        <h2>Gradim softver i multiplayer sisteme.</h2>
+        <p class="description">
+            Student programiranja i Software Developer sa fokusom na <b>Java backend</b>, <b>Game Development</b> i mrežne sisteme.
+        </p>
+        <div class="tech-stack">
+            <span>Java</span><span>Spring Boot</span><span>LibGDX</span><span>SQL</span><span>Git</span>
+        </div>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">Moji projekti</a>
+            <a href="https://github.com/spasic4" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <!-- Projekti Sekcija -->
+    <section id="projects" class="projects hidden">
+        <h2 class="section-title">Moji Projekti</h2>
+        <div class="project-grid">
+            
+            <!-- Projekat 1 -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/splashrealm.png');"></div>
+                <div class="project-content">
+                    <h3>SplashRealm</h3>
+                    <p class="project-desc">Multiplayer MMORPG desktop igra. Radio sam na network clientu, UI sistemu i komunikaciji između klijenta i servera.</p>
+                    <div class="project-tech">
+                        <span>Java</span><span>LibGDX</span><span>KryoNet</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/spasic4/SplashRealm" target="_blank"><i class="fab fa-github"></i> Kod</a>
+                        <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projekat 2 -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/draftroom.png');"></div>
+                <div class="project-content">
+                    <h3>DraftRoom</h3>
+                    <p class="project-desc">2D softver za dizajniranje soba iz ptičije perspektive. Sadrži intuitivne alate za crtanje i unapred definisane komponente za lako uređivanje prostora. Projekat rađen za fakultet (RAF).</p>
+                    <div class="project-tech">
+                        <span>Java</span><span>Maven</span><span>Software Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/spasic4/DraftRoom" target="_blank"><i class="fab fa-github"></i> Kod</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- O meni Sekcija -->
+    <section id="about" class="about hidden">
+        <h2 class="section-title">O meni & Obrazovanje</h2>
+        <div class="about-content">
+            <p>Trenutno sam student na <b>Računarskom Fakultetu, Univerzitet Union</b>, smer Software Engineering / Computer Science (2023–present).</p>
+            <p>Najviše volim da rešavam logičke probleme i pravim sisteme koji rade "ispod haube". Imam iskustva sa pisanjem čistog koda, dizajnom baza podataka i mrežnim programiranjem (client-server arhitektura).</p>
+        </div>
+    </section>
+
+    <!-- Kontakt Sekcija -->
+    <section id="contact" class="contact hidden">
+        <h2 class="section-title">Zainteresovan si za saradnju?</h2>
+        <p>Trenutno sam otvoren za nove prilike, prakse i juniorske pozicije. Javi se!</p>
+        <a href="mailto:vasa.spasic@email.com" class="btn primary">Pošalji Email</a>
+        
+        <div class="social-links">
+            <a href="https://github.com/spasic4" target="_blank"><i class="fab fa-github"></i></a>
+            <!--<a href="https://linkedin.com/in/tvojeime" target="_blank"><i class="fab fa-linkedin"></i></a>-->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Vasilije Spasić 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
